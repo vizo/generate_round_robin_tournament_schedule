@@ -3,5 +3,5 @@
 ## Usage:
 
 ```
-./generate_round_robin_tournament_schedule "Player 1" "Player 2" "Player 3"
+./generate_round_robin_tournament_schedule.rb "Player 1" "Player 2" "Player 3"
 ```
