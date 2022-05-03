@@ -1,6 +1,9 @@
 #!/usr/bin/ruby
 require 'json'
 
+# Generate round-robin tournament rounds based on https://en.wikipedia.org/wiki/Round-robin_tournament#Berger_tables
+# ==== Example ====
+# generate_round_robin_tournament_schedule(["Player 1", "Player 2", "Player 3"])
 def generate_round_robin_tournament_schedule(players)
   # Make a shallow copy of players
   players = players.dup
